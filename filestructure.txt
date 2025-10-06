@@ -1,0 +1,48 @@
+|-- .env
+|-- .gitignore
+|-- generated
+    |-- prisma
+        |-- client.d.ts
+        |-- client.js
+        |-- default.d.ts
+        |-- default.js
+        |-- edge.d.ts
+        |-- edge.js
+        |-- index-browser.js
+        |-- index.d.ts
+        |-- index.js
+        |-- package.json
+        |-- query_engine-windows.dll.node
+        |-- query_engine_bg.js
+        |-- query_engine_bg.wasm
+        |-- runtime
+            |-- edge-esm.js
+            |-- edge.js
+            |-- index-browser.d.ts
+            |-- index-browser.js
+            |-- library.d.ts
+            |-- library.js
+            |-- react-native.js
+            |-- wasm-compiler-edge.js
+            |-- wasm-engine-edge.js
+        |-- schema.prisma
+        |-- wasm-edge-light-loader.mjs
+        |-- wasm-worker-loader.mjs
+        |-- wasm.d.ts
+        |-- wasm.js
+|-- package-lock.json
+|-- package.json
+|-- prisma
+    |-- schema.prisma
+|-- README.md
+|-- src
+    |-- app.ts
+    |-- env.ts
+    |-- logger.ts
+    |-- middlewares
+        |-- error.ts
+        |-- request-id.ts
+    |-- routes
+        |-- health.ts
+    |-- server.ts
+|-- tsconfig.json
